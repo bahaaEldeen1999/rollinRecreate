@@ -1,0 +1,465 @@
+*
+{
+    transition: all .5s ease-in-out;
+    box-sizing: border-box
+}
+section
+{
+    padding: 70px 0px;
+}
+.overlay
+{
+    padding: 70px 0;
+    background-color: rgba(0,0,0,.7)
+}
+h1,h2
+{
+    text-align: center;
+    font-weight: bold
+}
+body
+{
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
+    position: relative
+}
+a
+{
+    text-decoration: none;
+    border: none;
+    color: inherit
+}
+a:hover
+{
+    color: inherit
+}
+a.btn
+{
+    font-weight: bold;
+    font-size: 1.5em
+}
+.btn:hover
+{
+    background-color: #24B662;
+    color: white;
+    border-color: white
+}
+.btn i{
+    padding-left:15px;
+    overflow: hidden
+}
+.btn i {
+  animation-duration: .4s;
+  
+}
+/*navbar*/
+.navbar-dark
+{
+    color: white !important;
+    background-color: #4B4B4B !important
+}
+.navbar-dark .navbar-nav
+{
+    text-align: right;
+    width: 100%;
+    color: white !important
+    
+}
+.nav-link
+{
+    border-bottom: 1px double transparent
+}
+.nav-link:hover
+{
+    color: #24B662 !important;
+    border-bottom: 1px double #24B662
+}
+/*home*/
+
+section#home
+{
+    padding: 0;
+    background-image: url(../images/headerbg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    text-align: center;
+    color: white
+}
+section#home .overlay
+{
+    padding: 150px 0;
+    min-height: 100vh;
+}
+section#home h1,section#home h4
+{
+    padding: 30px 0
+}
+section#home a
+{
+    padding: 30px;
+    border:1px solid white;
+    border-radius: 50px
+}
+/*about*/
+section#about img
+{
+    width: 100%
+
+}
+section#about h2
+{
+    text-align: left
+}
+section#about
+{
+    padding: 0
+}
+section#about .col-md-6:nth-of-type(2n)
+{
+    padding-top: 50px
+}
+/*portfolio*/
+#filter li
+{
+    display: inline;
+    text-align: center;
+    list-style: none;
+    margin-right: 20px;
+    
+    cursor: pointer;
+    padding: 10px
+}
+#filter li:hover
+{
+    background-color: #24B662;
+    color: white;
+    border-radius: 40px;
+}
+#filter li:focus
+{
+    background-color: #24B662;
+    color: white;
+    border-radius: 40px;
+}
+#portfolio
+{
+    text-align: center
+}
+#portfolio h2
+{
+    padding: 30px 0;
+    border-radius: 50px;
+    border-bottom: 4px double #24B662;
+    width: 400px;
+    margin: 20px auto
+}
+#portfolio img
+{
+    width: 100%;
+    height: 300px
+}
+section#portfolio a
+{
+    padding: 30px 50px;
+    border:1px solid black;
+    border-radius: 50px
+}
+/*testimonial*/
+#testimonial
+{
+    text-align: center;
+    background-color: #F9F9F9
+}
+#testimonial h2
+{
+    padding: 30px 0;
+    border-radius: 50px;
+    border-bottom: 4px double #24B662;
+    width: 400px;
+    margin: 20px auto
+}
+#testimonial img
+{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto
+
+}
+section#testimonial a
+{
+    padding: 30px 50px;
+    border:1px solid black;
+    border-radius: 50px
+}
+#testimonial .item
+{
+    width: 100%;
+    
+}
+#testimonial .owl-carousel
+{
+    background-color: white;
+    padding: 30px 0;
+    box-shadow: 1px 1px 1px #888888;
+}
+#testimonial .owl-carousel:hover
+{
+    box-shadow: 10px 10px 5px #888888;
+}
+/*numbers*/
+#numbers
+{
+    background-image: url(../images/npg.jpeg);
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0
+}
+#numbers h2
+{
+    text-align: left
+}
+#numbers i
+{
+    display: block;
+    margin: auto;
+    font-size: 2em
+}
+/*service*/
+#service
+{
+    background: #F9F9F9;
+    text-align: center
+}
+#service h2
+{
+    padding: 30px 0;
+    border-radius: 50px;
+    border-bottom: 4px double #24B662;
+    width: 400px;
+    margin: 20px auto;
+}
+#service .row
+{
+    text-align: left;
+    margin-top: 50px
+}
+#service .row i
+{
+    display: block;
+    font-size: 3em;
+    padding: 20px 0
+}
+#service hr
+{
+   
+    border-top: 4px solid #0FD28A;
+    width: 20%;
+    display: inline-block
+}
+#service .fixmargin
+{
+    padding: 50px;
+    background: white;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 0 
+}
+#service .fixmargin:hover
+{
+    border-radius: 0;
+    box-shadow: 10px 10px 5px #888888;
+}
+/*contact1*/
+section#contact1
+{
+    text-align: center
+    
+}
+section#contact1 a
+{
+    padding: 20px 50px;
+    border:1px solid black;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-weight: bold
+    
+}
+/*contact*/
+#contact
+{
+    
+    text-align: center;
+    background-color: #F9F9F9
+}
+#contact h2
+{
+    padding: 30px 0;
+    border-radius: 50px;
+    border-bottom: 4px double #24B662;
+    width: 400px;
+    margin: 20px auto;
+}
+#contact .row .col-md-4 i
+{
+    
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 3px 3px 1px #888888;
+    margin-bottom: 30px
+}
+#contact .row .col-md-4 i:hover
+{
+ box-shadow: 10px 10px 5px #888888;   
+}
+#contact input
+{
+    margin:20px auto;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 1px #888888;
+    display: block;
+    width: 100%;
+    padding: 10px 10px
+    
+    
+    
+}
+#contact select,#contact textarea
+{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 1px 1px 1px #888888;
+    padding: 10px
+}
+#contact .row
+{
+    margin-top: 20px
+}
+section#contact a
+{
+    padding: 20px 50px;
+    border:1px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+    
+}
+section#contact 
+{
+    text-align: center
+}
+#iconssocial
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px
+}
+#iconssocial i
+{
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer
+}
+#iconssocial i:hover
+{
+    box-shadow: 5px 5px 1px #888888; 
+}
+#contact img
+{
+    width: 100%;
+    border-radius: 15px
+}
+/*typewriting effect*/
+#home h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+   
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent }
+}
+/*to top*/
+.totop
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px 0;
+    background-color: #24B662;
+    border-radius: 50%;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center !important;
+    opacity: 0;
+}
+
+.totop a
+{
+    
+   
+    text-align: center;
+    color: white;
+    
+    padding: 15px;
+    
+}
+
+/*loader*/
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/Preloader_2.gif) center no-repeat #fff;
+}
+/*media*/
+@media screen and (max-width:800px){
+    *{
+        font-size: 20px !important;
+        text-align: center !important
+    }
+    #filter li{
+        display: block;
+    }
+    #numbers{
+        min-height: 100vh;
+    }
+    #numbers .overlay{
+        min-height: 100vh;
+    }
+}
